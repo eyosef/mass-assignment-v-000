@@ -4,6 +4,7 @@ class Person
                 :t_shirt_size,:wrist_size, :glove_size, :pant_length, :pant_width
 
 def initialize 
+  attributes = Hash.new(0)
 end 
 
 end
